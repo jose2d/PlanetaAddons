@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "planetaaddons",
+  "version": "2.0.0",
+  "name": "Adicoes essenciais do planeta cobblemon",
+  "description": "adiciona itens que sao necessarios no servidor",
+  "icon": "assets/planetaaddons/icon.png",
+  "authors": [
+    "planetinha"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "git.jse.planetacorp.fabric.PlanetaAddonsMod"
+    ],
+    "client": [
+      "git.jse.planetacorp.fabric.PlanetaAddonsClient"
+    ]
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": ">=1.21",
+    "fabricloader": ">=0.16.9",
+    "fabric-api": "*",
+    "cobblemon": ">=1.6.0"
+  }
+}
