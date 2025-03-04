@@ -13,14 +13,25 @@ import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Formatting;
 
+<<<<<<< HEAD
 import java.util.List;
 import java.util.Random;
 
 public class IVRandomItem extends PokemonUseItem {
+=======
+import java.util.Collections;
+import java.util.List;
+import java.util.Random;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+public class IVRandomItem extends Item {
+>>>>>>> master
     public IVRandomItem() {
         super(new Item.Settings().maxCount(1));
     }
 
+<<<<<<< HEAD
     @Override
     public ActionResult processInteraction(ItemStack itemStack, PlayerEntity player, PokemonEntity target, Pokemon pokemon) {
         // Verifica se o Pokémon é Ditto
@@ -43,6 +54,8 @@ public class IVRandomItem extends PokemonUseItem {
         player.sendMessage(Text.of("Todos os IVs foram randomizados."));
         return ActionResult.SUCCESS;
     }
+=======
+>>>>>>> master
 
     @Override
     public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {

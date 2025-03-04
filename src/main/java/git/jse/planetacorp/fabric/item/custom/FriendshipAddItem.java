@@ -12,13 +12,18 @@ import net.minecraft.util.Formatting;
 
 import java.util.List;
 
+<<<<<<< HEAD
 public class FriendshipAddItem extends PokemonUseItem {
+=======
+public class FriendshipAddItem extends Item {
+>>>>>>> master
 
     public FriendshipAddItem() {
         super(new Item.Settings().maxCount(1));
     }
 
     @Override
+<<<<<<< HEAD
     public ActionResult processInteraction(ItemStack itemStack, PlayerEntity player, PokemonEntity target, Pokemon pokemon) {
         int maxFriendship = 255; // Maximum friendship value
         int currentFriendship = pokemon.getFriendship(); // Current friendship value
@@ -49,6 +54,8 @@ public class FriendshipAddItem extends PokemonUseItem {
     }
 
     @Override
+=======
+>>>>>>> master
     public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
         super.appendTooltip(stack, context, tooltip, type);
         tooltip.add(Text.translatable("item.planetaaddons.friendship_max.lore").formatted(Formatting.GRAY));

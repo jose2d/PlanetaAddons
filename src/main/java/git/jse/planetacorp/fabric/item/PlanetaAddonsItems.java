@@ -42,10 +42,18 @@ public class PlanetaAddonsItems {
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(PlanetaAddonsMod.MODID, name),item);
     }
+<<<<<<< HEAD
+=======
+    /**
+>>>>>>> master
     // Registrar PokemonUse
     private static PokemonUseItem registerPokemonUseItem(String name, PokemonUseItem pokemonUseItem) {
         return (PokemonUseItem) Registry.register(Registries.ITEM, Identifier.of(PlanetaAddonsMod.MODID, name),pokemonUseItem);
     }
+<<<<<<< HEAD
+=======
+    */
+>>>>>>> master
     //Registrar IVMaxer
     private static IVMaxerItem registerIVMaxerItem(String name, IVMaxerItem ivMaxerItem) {
         return (IVMaxerItem) Registry.register(Registries.ITEM, Identifier.of(PlanetaAddonsMod.MODID, name), ivMaxerItem);

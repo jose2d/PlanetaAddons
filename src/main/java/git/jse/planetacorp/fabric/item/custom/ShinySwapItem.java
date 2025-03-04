@@ -12,11 +12,16 @@ import net.minecraft.util.Formatting;
 
 import java.util.List;
 
+<<<<<<< HEAD
 public class ShinySwapItem extends PokemonUseItem {
+=======
+public class ShinySwapItem extends Item {
+>>>>>>> master
     public ShinySwapItem() {
         super(new Item.Settings().maxCount(1));
     }
 
+<<<<<<< HEAD
     @Override
     public ActionResult processInteraction(ItemStack itemStack, PlayerEntity player, PokemonEntity target, Pokemon pokemon) {
         // Verifica se o Pokémon é Ditto, precisamos ripar o ditto familia
@@ -37,6 +42,8 @@ public class ShinySwapItem extends PokemonUseItem {
 
         return ActionResult.SUCCESS;
     }
+=======
+>>>>>>> master
 
     @Override
     public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {

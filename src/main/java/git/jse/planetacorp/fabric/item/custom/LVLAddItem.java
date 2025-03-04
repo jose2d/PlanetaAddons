@@ -12,12 +12,17 @@ import net.minecraft.util.Formatting;
 
 import java.util.List;
 
+<<<<<<< HEAD
 public class LVLAddItem extends PokemonUseItem {
+=======
+public class LVLAddItem extends Item {
+>>>>>>> master
 
     public LVLAddItem() {
         super(new Item.Settings().maxCount(1));
     }
 
+<<<<<<< HEAD
     @Override
     public ActionResult processInteraction(ItemStack itemStack, PlayerEntity player, PokemonEntity target, Pokemon pokemon) {
         int maxLevel = 100; // Maximum level
@@ -38,6 +43,9 @@ public class LVLAddItem extends PokemonUseItem {
 
         return ActionResult.SUCCESS;
     }
+=======
+
+>>>>>>> master
 
     @Override
     public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {

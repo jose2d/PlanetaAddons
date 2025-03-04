@@ -16,13 +16,21 @@ import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
+<<<<<<< HEAD
 
 public class IVMaxerItem extends PokemonUseItem {
+=======
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+public class IVMaxerItem extends Item {
+>>>>>>> master
 
     public IVMaxerItem() {
         super(new Item.Settings().maxCount(1));
     }
 
+<<<<<<< HEAD
     @Override
     public ActionResult processInteraction(ItemStack itemStack, PlayerEntity player, PokemonEntity target, Pokemon pokemon) {
         // Verifica se o Pokémon é Ditto
@@ -64,6 +72,8 @@ public class IVMaxerItem extends PokemonUseItem {
         player.sendMessage(Text.of("Todos os valores de IV atingiram o máximo."));
         return ActionResult.SUCCESS;
     }
+=======
+>>>>>>> master
 
     @Override
     public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {

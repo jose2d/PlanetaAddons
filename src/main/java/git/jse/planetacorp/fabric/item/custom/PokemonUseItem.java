@@ -17,6 +17,10 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
+<<<<<<< HEAD
+=======
+/**
+>>>>>>> master
 public abstract class PokemonUseItem extends Item {
     public PokemonUseItem(Item.Settings settings) {
         super(settings);
@@ -77,4 +81,9 @@ public abstract class PokemonUseItem extends Item {
     }
 
 
+<<<<<<< HEAD
 }
+=======
+}
+ */
+>>>>>>> master

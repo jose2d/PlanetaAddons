@@ -13,6 +13,7 @@ import net.minecraft.util.Formatting;
 
 import java.util.List;
 
+<<<<<<< HEAD
 public class GenderSwapItem extends PokemonUseItem {
     public GenderSwapItem() { super(new Item.Settings().maxCount(1));}
 
@@ -47,6 +48,11 @@ public class GenderSwapItem extends PokemonUseItem {
         itemStack.decrement(1);
         return ActionResult.SUCCESS;
     }
+=======
+public class GenderSwapItem extends Item {
+    public GenderSwapItem() { super(new Item.Settings().maxCount(1));}
+
+>>>>>>> master
 
     @Override
     public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {

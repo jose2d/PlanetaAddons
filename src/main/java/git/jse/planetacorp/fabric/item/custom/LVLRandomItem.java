@@ -15,12 +15,17 @@ import net.minecraft.util.Formatting;
 import java.util.List;
 import java.util.Random;
 
+<<<<<<< HEAD
 public class LVLRandomItem extends PokemonUseItem {
+=======
+public class LVLRandomItem extends Item {
+>>>>>>> master
 
     public LVLRandomItem() {
         super(new Item.Settings().maxCount(1));
     }
 
+<<<<<<< HEAD
     @Override
     public ActionResult processInteraction(ItemStack itemStack, PlayerEntity player, PokemonEntity target, Pokemon pokemon) {
         int maxLevel = Cobblemon.config.getMaxPokemonLevel(); // maximum level of Pokémon allowed by config
@@ -32,6 +37,8 @@ public class LVLRandomItem extends PokemonUseItem {
         player.sendMessage(Text.of("O nível do Pokémon foi randomizado."));
         return ActionResult.SUCCESS;
     }
+=======
+>>>>>>> master
 
     @Override
     public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
