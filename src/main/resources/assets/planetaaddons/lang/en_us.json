@@ -1,0 +1,49 @@
+{
+  "item.planetaaddons.ball_changer": "Troca de Pokébola",
+  
+  "item.planetaaddons.friendship_max": "Doce da Amizade",
+
+  "item.planetaaddons.silver_bottlecap": "Tampa de Prata",
+
+  "item.planetaaddons.copper_bottlecap": "Tampa de Cobre",
+
+  "item.planetaaddons.all_iv_maxer": "Tampa de Ouro",
+  "item.planetaaddons.gold_bottlecap": "Tampa de Ouro",
+  "item.planetaaddons.iv_random": "Tampa Aleatória Imperfeita",
+  "item.planetaaddons.iv_legend_random": "Tampa Aleatória Perfeita",
+
+  "item.planetaaddons.level_random": "Doce Raro Aleatório",
+  "item.planetaaddons.lvl_max": "Doce Raro Dourado",
+
+  "item.planetaaddons.gender_swapper": "Mudança de Gênero",
+  "item.planetaaddons.shiny_swapper": "Mudança Shiny",
+
+  "item.planetaaddons.nature_changer": "Troca de Natureza",
+
+  "itemgroup.planetaaddons": "PlanetaAddons",
+
+
+  "item.planetaaddons.iv_maxer.lore": "Maximiza os IVs do Pokémon.",
+
+  "item.planetaaddons.shiny_swapper.lore": "Transforma um Pokémon em Shiny. Se usado em um Pokémon Shiny, remove o Shiny.",
+
+  "item.planetaaddons.gender_swapper.lore": "Muda o gênero do Pokémon, caso ele possua outro gênero disponível.",
+
+  "item.planetaaddons.friendship_max.lore": "Maximiza a amizade do Pokémon.",
+
+  "item.planetaaddons.iv_random.lore": "Aleatoriza os IVs do Pokémon.",
+
+  "item.planetaaddons.iv_legend_random.lore": "Aleatoriza os IVs do Pokémon. Caso seja um Lendário, garante 3 IVs perfeitos. Ultra Beasts e Pokémon Paradox garantem 2 IVs perfeitos.",
+
+  "item.planetaaddons.level_random.lore": "Aleatoriza o nível do Pokémon.",
+
+  "item.planetaaddons.lvl_max.lore": "Maximiza o nível do Pokémon.",
+
+  "item.planetaaddons.nature_changer.lore": "Altera a natureza do Pokémon.",
+
+  "item.planetaaddons.silver_bottlecap.lore": "Maximiza um IV específico para 31.",
+
+  "item.planetaaddons.caught_ball_changer.lore": "Altera a Pokébola do seu Pokémon.",
+
+  "item.planetaaddons.copper_bottlecap.lore": "Aumenta um IV específico em +1."
+}
